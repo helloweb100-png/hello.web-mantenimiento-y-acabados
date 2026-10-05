@@ -497,7 +497,7 @@ body.is-ready [data-hero-in] { opacity: 1; transform: none; filter: none; }
 .stat__n { font-family: var(--f-display); font-weight: 800; font-size: clamp(3.8rem, 13vw, 6.8rem); line-height: 1; letter-spacing: -.06em; background: linear-gradient(120deg, var(--navy), var(--blue) 55%, var(--orange)); -webkit-background-clip: text; background-clip: text; color: transparent; font-variant-numeric: tabular-nums; }
 .stat__l { margin-top: 12px; color: var(--fg-dim); font-size: 1rem; }
 @media (min-width: 760px) {
-  .stats { grid-template-columns: repeat(3, 1fr); }
+  .stats { grid-template-columns: repeat(2, 1fr); }
   .stat { padding: 40px 30px; border-bottom: 0; border-left: 1px solid var(--line); }
   .stat:first-child { padding-left: 0; border-left: 0; }
 }

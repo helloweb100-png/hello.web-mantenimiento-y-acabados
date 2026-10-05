@@ -29,7 +29,7 @@
   <meta property="og:image" content="https://www.tudominio.com/img/og-image.jpg">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="Logotipo de Mantenimiento y Acabados — José Luis López y escalera con lambrín de madera">
+  <meta property="og:image:alt" content="Logotipo de Mantenimiento y Acabados — José Luis López y escalera con lambrín SPC (PVC)">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Mantenimiento y Acabados en Querétaro">
   <meta name="twitter:description" content="Un solo equipo para pintura, impermeabilización, azulejos, plomería, electricidad y más.">
@@ -67,7 +67,12 @@
     },
     "geo": { "@type": "GeoCoordinates", "latitude": 20.517597, "longitude": -100.4514059 },
     "hasMap": "https://maps.app.goo.gl/2qrTZdgEyhoXL7kLA",
-    "areaServed": { "@type": "AdministrativeArea", "name": "Querétaro, México" },
+    "areaServed": [
+      { "@type": "AdministrativeArea", "name": "Querétaro, México" },
+      { "@type": "AdministrativeArea", "name": "Guanajuato, México" },
+      { "@type": "AdministrativeArea", "name": "Estado de México, México" },
+      { "@type": "AdministrativeArea", "name": "Ciudad de México, México" }
+    ],
     "founder": { "@type": "Person", "name": "José Luis López" },
     "sameAs": ["https://www.tiktok.com/@josluislpez562"],
     "hasOfferCatalog": {
@@ -98,8 +103,8 @@
         "acceptedAnswer": { "@type": "Answer", "text": "Sí. Pintura, impermeabilización, plomería, electricidad, tablaroca, albañilería y carpintería se coordinan con un solo equipo y un solo responsable." } },
       { "@type": "Question", "name": "¿Cómo sé qué tipo de impermeabilización necesita mi azotea?",
         "acceptedAnswer": { "@type": "Answer", "text": "Depende del tipo de techo, su estado y su uso. En la revisión identificamos el origen de la filtración y te recomendamos el sistema adecuado: membrana asfáltica, impermeabilizante acrílico o sellado de detalles." } },
-      { "@type": "Question", "name": "¿Atienden en toda la ciudad de Querétaro?",
-        "acceptedAnswer": { "@type": "Answer", "text": "Atendemos Querétaro y zonas cercanas. Escríbenos tu colonia por WhatsApp y confirmamos disponibilidad." } },
+      { "@type": "Question", "name": "¿En qué zonas realizan los servicios?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Estamos en Querétaro, pero si requieres un servicio en otros lugares como Guanajuato, Estado de México o CDMX, también lo realizamos. Escríbenos tu ubicación por WhatsApp y confirmamos disponibilidad." } },
       { "@type": "Question", "name": "¿Hacen trabajos pequeños o solo obras grandes?",
         "acceptedAnswer": { "@type": "Answer", "text": "Atendemos desde reparaciones puntuales hasta remodelaciones completas." } },
       { "@type": "Question", "name": "¿Cómo solicito una cotización?",
@@ -316,9 +321,9 @@
         <div class="hv__house">
           <span class="hv__ring" aria-hidden="true"></span>
           <div class="hv__photo" data-slides>
-            <figure class="slide is-active" data-label="Carpintería · Lambrín de madera">
+            <figure class="slide is-active" data-label="Carpintería · Lambrín SPC (PVC)">
               <img src="img/hero-lambrin-madera.webp" width="1050" height="1400" fetchpriority="high" decoding="async"
-                   alt="Escalera con muro de lambrín de madera y puerta de madera terminada en una casa de Querétaro">
+                   alt="Escalera con muro de lambrín SPC (PVC) y puerta de madera terminada en una casa de Querétaro">
             </figure>
             <figure class="slide" data-label="Impermeabilización · Azotea">
               <img src="img/hero-impermeabilizacion-azotea.webp" width="1050" height="1400" decoding="async"
@@ -338,13 +343,13 @@
         </div>
 
         <div class="hv__cap" aria-hidden="true">
-          <span class="hv__label" data-slide-label>Carpintería · Lambrín de madera</span>
+          <span class="hv__label" data-slide-label>Carpintería · Lambrín SPC (PVC)</span>
           <span class="hv__dots"><i class="is-on"></i><i></i><i></i><i></i></span>
         </div>
 
         <div class="float float--a" aria-hidden="true">
           <span class="float__ic"><svg class="ic"><use href="#i-wrench"/></svg></span>
-          <span class="float__tx"><strong>9 oficios</strong><small>Un solo equipo</small></span>
+          <span class="float__tx"><strong>Servicios en general</strong><small>Un solo equipo</small></span>
         </div>
         <div class="float float--b" aria-hidden="true">
           <span class="float__ic float__ic--o"><svg class="ic"><use href="#i-shield"/></svg></span>
@@ -389,10 +394,6 @@
     </h2>
 
     <div class="stats">
-      <div class="stat" data-reveal data-delay="0">
-        <p class="stat__n"><span data-count="9">0</span></p>
-        <p class="stat__l">Oficios especializados<br>bajo un mismo equipo</p>
-      </div>
       <div class="stat" data-reveal data-delay="1">
         <p class="stat__n"><span data-count="1">0</span></p>
         <p class="stat__l">Solo responsable<br>de principio a fin</p>
@@ -411,8 +412,8 @@
 <section class="svc" id="servicios" aria-labelledby="svc-title" data-svc>
   <div class="container svc__head">
     <p class="eyebrow" data-reveal>Servicios</p>
-    <h2 class="h2" id="svc-title" data-split>Nueve oficios.<br><span class="grad">Un solo equipo.</span></h2>
-    <p class="lead" data-reveal>Deja de coordinar a cinco contratistas distintos. Desde una gotera hasta una remodelación completa, todo pasa por las mismas manos.</p>
+    <h2 class="h2" id="svc-title" data-split>Servicios en general.<br><span class="grad">Un solo equipo.</span></h2>
+    <p class="lead" data-reveal>Deja de coordinar a cinco contratistas distintos. Desde una gotera hasta una remodelación completa, todo pasa por las mismas manos. Estos son solo algunos ejemplos de lo que hacemos.</p>
   </div>
 
   <div class="svc__track" data-svc-track>
@@ -553,14 +554,14 @@
               <span class="svc__name">Electricidad</span>
             </button>
             <div class="svc__body"><div>
-              <p>Instalaciones y reparaciones eléctricas seguras, iluminación y montaje de cámaras de videovigilancia.</p>
-              <ul class="tags"><li>Instalaciones</li><li>Iluminación</li><li>Cámaras</li></ul>
+              <p>Instalaciones y reparaciones eléctricas seguras e iluminación para tu hogar.</p>
+              <ul class="tags"><li>Instalaciones</li><li>Reparaciones</li><li>Iluminación</li></ul>
               <a class="link" data-wa-service="Electricidad" href="#contacto">Cotizar electricidad <svg class="ic"><use href="#i-arrow"/></svg></a>
             </div></div>
             <figure class="svc__fig">
               <img src="img/servicio-electricidad-camaras.webp" width="1050" height="1400" loading="lazy" decoding="async"
-                   alt="Técnico instalando una cámara de seguridad sobre una estructura metálica desde una escalera">
-              <figcaption>Instalación de cámaras</figcaption>
+                   alt="Técnico realizando una instalación sobre una estructura metálica desde una escalera">
+              <figcaption>Servicio de electricidad</figcaption>
             </figure>
           </li>
 
@@ -571,8 +572,8 @@
               <span class="svc__name">Carpintería</span>
             </button>
             <div class="svc__body"><div>
-              <p>Muebles, closets, lambrines, puertas y marcos de madera hechos a la medida de tu espacio.</p>
-              <ul class="tags"><li>A la medida</li><li>Lambrines</li><li>Puertas y marcos</li></ul>
+              <p>Muebles, closets, lambrín SPC (PVC), puertas y marcos de madera hechos a la medida de tu espacio.</p>
+              <ul class="tags"><li>A la medida</li><li>Lambrín SPC (PVC)</li><li>Puertas y marcos</li></ul>
               <a class="link" data-wa-service="Carpintería" href="#contacto">Cotizar carpintería <svg class="ic"><use href="#i-arrow"/></svg></a>
             </div></div>
             <figure class="svc__fig">
@@ -706,9 +707,9 @@
           <p class="work__hint" aria-hidden="true"><span class="work__hint-line"></span>Sigue desplazándote</p>
         </div>
 
-        <button class="wcard" type="button" data-lightbox data-cat="Carpintería" data-title="Lambrín de madera en escalera">
-          <span class="wcard__img"><img src="img/obra-lambrin-escalera.webp" width="1050" height="1400" loading="lazy" decoding="async" alt="Escalera con muro de lambrín de madera tono caoba y peldaños con recubrimiento claro"></span>
-          <span class="wcard__meta"><small>Carpintería</small><strong>Lambrín de madera en escalera</strong></span>
+        <button class="wcard" type="button" data-lightbox data-cat="Carpintería" data-title="Lambrín SPC (PVC) en escalera">
+          <span class="wcard__img"><img src="img/obra-lambrin-escalera.webp" width="1050" height="1400" loading="lazy" decoding="async" alt="Escalera con muro de lambrín SPC (PVC) tono caoba y peldaños con recubrimiento claro"></span>
+          <span class="wcard__meta"><small>Carpintería</small><strong>Lambrín SPC (PVC) en escalera</strong></span>
           <span class="wcard__zoom" aria-hidden="true"><svg class="ic"><use href="#i-arrow-ur"/></svg></span>
         </button>
 
@@ -772,7 +773,7 @@
              alt="Equipo de Mantenimiento y Acabados pintando el muro de una terraza con pérgola" data-parallax-img>
       </figure>
       <div class="about__card" data-float>
-        <p class="about__card-n">9<small>oficios</small></p>
+        <p class="about__card-n">1<small>equipo</small></p>
         <p class="about__card-t">Un solo equipo,<br>un solo estándar.</p>
       </div>
     </div>
@@ -781,7 +782,7 @@
       <p class="eyebrow" data-reveal>Nosotros</p>
       <h2 class="h2" id="about-title" data-split>Detrás de cada obra hay alguien que da la cara.</h2>
       <p class="lead" data-reveal>
-        Somos un equipo de mantenimiento residencial dirigido por <strong>José Luis López</strong> que reúne nueve oficios en un solo lugar.
+        Somos un equipo de mantenimiento residencial dirigido por <strong>José Luis López</strong> que reúne servicios de mantenimiento y acabados en un solo lugar.
         Evitas buscar y coordinar a varios contratistas: un contacto, un responsable y un mismo nivel de calidad en todo el proyecto.
       </p>
 
@@ -832,8 +833,8 @@
         <div class="qa__a"><div><p>Depende del tipo de techo, su estado y su uso. En la revisión identificamos el origen de la filtración y te recomendamos el sistema adecuado: membrana asfáltica, impermeabilizante acrílico o sellado de detalles.</p></div></div>
       </details>
       <details class="qa" data-reveal>
-        <summary><span>¿Atienden en toda la ciudad de Querétaro?</span><i class="qa__plus" aria-hidden="true"></i></summary>
-        <div class="qa__a"><div><p>Atendemos Querétaro y zonas cercanas. Escríbenos tu colonia por WhatsApp y confirmamos disponibilidad.</p></div></div>
+        <summary><span>¿En qué zonas realizan los servicios?</span><i class="qa__plus" aria-hidden="true"></i></summary>
+        <div class="qa__a"><div><p>Estamos en Querétaro, pero si requieres un servicio en otros lugares como Guanajuato, Estado de México o CDMX, también lo realizamos. Escríbenos tu ubicación por WhatsApp y confirmamos disponibilidad.</p></div></div>
       </details>
       <details class="qa" data-reveal>
         <summary><span>¿Hacen trabajos pequeños o solo obras grandes?</span><i class="qa__plus" aria-hidden="true"></i></summary>
@@ -953,7 +954,7 @@
   <div class="container foot__grid">
     <div class="foot__brand">
       <div class="foot__logo"><img src="img/logo-full.webp" width="600" height="446" loading="lazy" decoding="async" alt="Logotipo de Mantenimiento y Acabados — José Luis López, Cel. 442 206 90 50"></div>
-      <p>Mantenimiento residencial en Querétaro con nueve oficios, un solo equipo y acabados que elevan tu hogar.</p>
+      <p>Mantenimiento residencial en Querétaro con servicios en general, un solo equipo y acabados que elevan tu hogar.</p>
     </div>
     <nav class="foot__col" aria-label="Servicios">
       <h2>Servicios</h2>
